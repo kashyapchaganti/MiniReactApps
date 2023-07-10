@@ -12,6 +12,7 @@ import LuckyN from './LuckyN'
 import Forms from './Forms.jsx'
 import BetterSignUpForm from "./BetterSignUpForm"
 import ShoppingListForm from './ShoppingListForm'
+import Api from './Api'
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
   { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
@@ -34,7 +35,8 @@ export default function App() {
     // <Forms/>
     // <BetterSignUpForm/>
     <div>
-      <ShoppingList />
+      {/* <ShoppingList /> */}
+      <Api/>
     
     </div>
     
